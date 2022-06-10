@@ -30,6 +30,7 @@ public class TaskService {
             updatedTask.setTitle(task.getTitle());
             updatedTask.setComment(task.getComment());
             updatedTask.setComplete(task.getComplete());
+            updatedTask.setDate(task.getDate());
 
             taskRepository.save(updatedTask);
             return Optional.of(updatedTask);
