@@ -27,4 +27,7 @@ public class Task {
   @Column(name = "complete")
   private Boolean complete;
 
+  @Column(name = "date")
+  private String date;
+
 } 
