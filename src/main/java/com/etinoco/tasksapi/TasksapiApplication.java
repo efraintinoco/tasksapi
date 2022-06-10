@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TasksapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TasksapiApplication.class, args);
+		SpringApplication.run(TasksapiApplication.class, args );
 	}
 
 }
